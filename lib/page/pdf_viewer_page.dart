@@ -23,8 +23,10 @@ class _PDFViewerPageState extends State<PDFViewerPage> {
 
   @override
   Widget build(BuildContext context) {
-    final name =
-        basename(widget.file.path).replaceAll(".pdf", "").replaceAll("_", " ");
+    final name = basename(widget.file.path)
+        .replaceAll(".pdf", "")
+        .replaceAll("_", " ")
+        .replaceAll("Krizerske", " ");
     final text = '${indexPage + 1} of $pages';
 
     return Scaffold(

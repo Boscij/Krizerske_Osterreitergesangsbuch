@@ -2,7 +2,6 @@ import 'dart:io';
 
 //import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 //import 'package:krizerske_osterreitergesangsbuch/api/pdf_api.dart';
 import 'package:krizerske_osterreitergesangsbuch/button/button.dart';
 import 'package:krizerske_osterreitergesangsbuch/api/pdf_api.dart';
@@ -45,7 +44,7 @@ class _MainScreenState extends State<MainScreen>
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               ButtonWidget(
-                text: 'Krizerske Kulow',
+                text: 'Křižerske Kulow',
                 onClicked: () async {
                   const path = 'assets/Krizerske_Kulow.pdf';
                   final file = await PDFApi.loadAsset(path);
@@ -54,7 +53,7 @@ class _MainScreenState extends State<MainScreen>
               ),
               const SizedBox(height: 16),
               ButtonWidget(
-                text: 'Krizerske Ralbicy',
+                text: 'Křižerske Ralbicy',
                 onClicked: () async {
                   const path = 'assets/Krizerske_Ralbicy.pdf';
                   final file = await PDFApi.loadAsset(path);

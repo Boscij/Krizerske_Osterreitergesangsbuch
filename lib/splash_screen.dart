@@ -41,7 +41,7 @@ class _MySplashScreenState extends State<MySplashScreen> {
               const SizedBox(
                 height: 20,
               ),
-              const Text("Krizerske - Osterreitergesangsbuch",
+              const Text("Křižerske - Osterreitergesangsbuch",
                   style: TextStyle(
                       fontSize: 24,
                       color: Colors.white,
