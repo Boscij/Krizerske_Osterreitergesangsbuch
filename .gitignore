@@ -21,3 +21,7 @@ doc/api/
 *.js.map
 assets/Krizerske_ralbicy.pdf
 assets/Krizerske_kulow.pdf
+
+key.properties
+**/*.keystore
+**/*.jks
