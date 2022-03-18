@@ -12,7 +12,7 @@ class MySplashScreen extends StatefulWidget {
 
 class _MySplashScreenState extends State<MySplashScreen> {
   startTimer() {
-    Timer(const Duration(seconds: 4), () async {
+    Timer(const Duration(seconds: 2), () async {
       Navigator.push(
           context, MaterialPageRoute(builder: (c) => const MainScreen()));
     });
@@ -41,7 +41,8 @@ class _MySplashScreenState extends State<MySplashScreen> {
               const SizedBox(
                 height: 20,
               ),
-              const Text("Křižerske - Osterreitergesangsbuch",
+              const Text("Křižerske \n - \n Osterreitergesangsbuch",
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                       fontSize: 24,
                       color: Colors.white,
