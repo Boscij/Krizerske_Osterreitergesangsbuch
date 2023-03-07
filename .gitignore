@@ -19,9 +19,10 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
-assets/Krizerske_ralbicy.pdf
-assets/Krizerske_kulow.pdf
-
+assets/Krizerske_Ralbicy.pdf
+assets/Krizerske_Kulow.pdf
+assets/Krizerske_Radwor.pdf
+assets/Krizerske_Radwor1.pdf
 key.properties
 **/*.keystore
 **/*.jks
