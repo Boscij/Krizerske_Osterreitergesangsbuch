@@ -60,6 +60,15 @@ class _MainScreenState extends State<MainScreen>
                   openPDF(context, file);
                 },
               ),
+              const SizedBox(height: 16),
+              ButtonWidget(
+                text: 'Křižerske Radwor',
+                onClicked: () async {
+                  const path = 'assets/Krizerske_Radwor.pdf';
+                  final file = await PDFApi.loadAsset(path);
+                  openPDF(context, file);
+                },
+              ),
             ],
           ),
         ),
