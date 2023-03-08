@@ -27,7 +27,7 @@ class _PDFViewerPageState extends State<PDFViewerPage> {
         .replaceAll(".pdf", "")
         .replaceAll("_", " ")
         .replaceAll("Krizerske", " ");
-    final text = '${indexPage + 1} of $pages';
+    final text = '${indexPage + 1} / $pages';
 
     return Scaffold(
       appBar: AppBar(
