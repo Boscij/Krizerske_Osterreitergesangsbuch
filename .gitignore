@@ -25,3 +25,4 @@ assets/Krizerske_Radwor.pdf
 key.properties
 **/*.keystore
 **/*.jks
+app/upload-keystore.jks
