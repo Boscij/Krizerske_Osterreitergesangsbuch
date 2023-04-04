@@ -16,7 +16,9 @@ class ButtonWidget extends StatelessWidget {
           primary: Color.fromARGB(255, 144, 238, 144),
           minimumSize: Size.fromHeight(50),
         ),
-        child: Text(text, style: TextStyle(fontSize: 20, color: Colors.black)),
+        child: Text(text,
+            style: TextStyle(fontSize: 20, color: Colors.black),
+            textAlign: TextAlign.center),
         onPressed: onClicked,
       );
 }
