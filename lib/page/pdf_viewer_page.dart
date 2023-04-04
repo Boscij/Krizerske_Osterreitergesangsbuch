@@ -336,7 +336,7 @@ class _PDFViewerPageState extends State<PDFViewerPage> {
                                   DataCell(TextButton(
                                     child: Text('Kónčna modlitwa'),
                                     onPressed: () {
-                                      controller.setPage(35);
+                                      controller.setPage(34);
                                       Navigator.pop(context);
                                     },
                                   ))
