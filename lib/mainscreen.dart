@@ -69,6 +69,15 @@ class _MainScreenState extends State<MainScreen>
                   openPDF(context, file);
                 },
               ),
+              const SizedBox(height: 16),
+              ButtonWidget(
+                text: "Osterreitergesangsbuch\nWittichenau",
+                onClicked: () async {
+                  const path = 'assets/Osterreitergesangsbuch_Wittichenau.pdf';
+                  final file = await PDFApi.loadAsset(path);
+                  openPDF(context, file);
+                },
+              ),
             ],
           ),
         ),
